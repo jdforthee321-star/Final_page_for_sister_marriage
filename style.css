@@ -1,0 +1,95 @@
+ body{
+ margin: 0;
+  font-family: Arial, sans-serif;
+  background: #EDE8D0;
+  height: 200vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  }
+				/*The main body and all*/
+   .Mbody{
+	 
+	 background: #b2363f;
+	 width:500px;
+	 border-radius: 25px;
+	 text-align: center;
+	 padding: 30px
+	 
+	 
+ }
+ 
+ .heading-title{
+	 width: 500px;
+  margin: 10px auto;
+  padding: 0;
+  border: 2px solid white;
+  font-family: sans-serif;
+ }
+ 
+ 
+ 
+				/*The main event cards and all*/
+.event-card {
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid white;
+  font-family: sans-serif;
+  
+}
+
+
+
+.events p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin: 8px 0;
+  line-height: 1.2;
+}
+    
+  h1{
+	  color: white;
+	  text-decoration: underline;
+}
+
+						/*dates*/
+  .dates{
+	  size:72px;
+	  text-align: center;
+	  /*font-size: 26px;*/
+	  margin-bottom: 20px;
+	  text-decoration: underline;
+  }
+  
+  .inline-bullets{
+	   list-style-position: inside;  /* bullets start near text */
+  padding-left: 0;              /* remove default left padding */
+  margin: 0 auto;               /* center the whole list horizontally */
+  display: inline-block;        /* shrink list width to content */
+  text-align: left; 
+  }
+  
+  .inline-bullets li{
+	  margin: 2px 0;                /* spacing between items */
+  line-height: 1.4;  
+  }
+  
+
+  p{
+	  margin: 6px 0;
+	  line-height: 1.3;
+  }
+
+.venue-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  text-decoration: none;
+  border: 2px solid white;
+  color: black;
+  font-size: 14px;
+  background:#EDE8D0;
+}
